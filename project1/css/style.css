@@ -1,0 +1,121 @@
+/* 공통 */
+*{margin: 0; padding: 0}
+body{font-family: Noto Serif CJK KR}
+ul{list-style: none}
+.inner{width: 1020px; margin: 0 auto}
+
+
+/* 헤더 */
+#header{width: 100%; height: 100px}
+/*상단*/
+#header>.inner>div:nth-child(1){height: 65px; text-align: center; position: relative}
+/*초기화*/
+#header>.inner>div:nth-child(1):after{display: block; content: ""; clear: both}
+
+.logo{width: 96px; height: 42px; padding-top: 10px; position:absolute; left: 0; right: 0; margin: 0 auto}
+.header_text{height: 35px; line-height: 35px; float: right}
+.login{float:left; font-size: 12px; color: #000; padding: 0 20px}
+.login>li{float: left; padding: 0 10px}
+.login>li:nth-child(3)>img{vertical-align: middle}
+/*초기화*/
+.header_text:after{display: block; content: ""; clear: both}
+.login:after{display: block; content: ""; clear: both}
+
+.app{float: left; width: 60px; height: 40px; background-color: #233a1d; color: #fff; border-radius: 0 0 10px 10px; font-size: 12px}
+
+/*하단*/
+#header>.inner>div:nth-child(2){width: 100%; height: 35px; position: relative}
+.menu{width: 80%; height: 35px; position: absolute; left: 0; right: 0; margin: 0 auto; font-size: 15px}
+.menu>li{float: left; padding-left: 30px}
+/*초기화*/
+.menu:after{display: block; content: ""; clear: both}
+
+/* 메인이미지 */
+#mainimg{width: 100%; height: 700px; background-image: url(../img/mainimg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center}
+#mainimg>.inner{width: 1020px; height: 700px; position: relative}
+.btn1{width: 150px; height: 50px; position: absolute; left: 0; right: 0; bottom: 50px ; margin: 0 auto;text-align: center; line-height: 50px; color: #fff; border: 3px solid #fff; border-radius: 50px; font-size: 15px}
+
+.main_sub{position: absolute; right: 0px; bottom: 60px; text-align: right; color: #fff}
+.date{font-size: 20px}
+.atmosphere{font-size: 20px}
+.main_sub>h3{font-size:25px}
+
+.login_btn{position: absolute; width: 86px; height: 71px; background-color: #233a1d; border-radius: 100px; right: 0; bottom: -45px; text-align: center; color: #fff; font-size: 12px; font-weight: bold; padding-top: 15px}
+
+/*콘텐츠*/
+/*박스1*/
+.box1{width: 1020px; height: 1080px; margin: 0 auto; background-image: url(../img/contents01_bg.png); background-repeat: no-repeat; background-position: center 50px; text-align: center; position: relative; color: #233a1d}
+.box1>h1{padding-top: 100px; font-size: 50px}
+.box1>h1>span{font-size: 30px}
+.box1>p{padding-top: 550px; font-size: 30px}
+.box1>p>span{font-weight: bold; font-size: 40px}
+
+.btn3{width: 150px; height: 50px; position: absolute; left: 0; right: 0; bottom: 150px; margin: 0 auto; border-radius: 50px; font-size: 15px; line-height: 50px; background-color: #233a1d; color: #fff}
+
+.btn2{position: absolute; font; font-size: 30px}
+.btn2>span{font-weight: bold; font-size: 40px}
+.btn2:nth-child(1){left: 150px; top: 250px}
+.btn2:nth-child(2){right: 150px; top: 250px}
+.btn2:nth-child(3){left: 150px; bottom: 500px}
+.btn2:nth-child(4){right: 50px; bottom: 500px}
+
+/*박스2*/
+.box2{width: 100%; height: 1300px; position: relative; padding-top: 170px}
+.box2_bg{background-color: #e9fbe1; width: 95%; height: 560px; position: absolute; right: 0; top: 300px; border-radius: 50px 0 0 50px}
+.box2_img{width: 100%; height: 560px; position: absolute}
+.box2_left{width: 50%; height: 560px; float: left; background-image: url(../img/contents02_bg.png); background-repeat: no-repeat; background-size: cover; background-position: right center}
+.box2_right{width: 50%; height: 560px; float: right}
+/*초기화*/
+.box2_img:after{display: block; content: ""; clear: both}
+
+.box2_text{padding-top: 200px; padding-left: 80px}
+.box2_text>img{padding-bottom: 25px}
+.box2_text>h1{font-size: 30px; padding-bottom: 15px; color: #233a1d}
+.box2_text>p{font-size: 20px; padding-bottom: 70px; color: #233a1d}
+
+.btn4{width: 120px; height: 50px; background-color: #233a1d; text-align: center; line-height: 50px; border-radius: 50px; color: #fff; font-size: 15px}
+
+.box2>.inner{position: absolute; width: 1020px; height: 700px; left: 0; right: 0; bottom: 0; margin: 0 auto; text-align: center}
+.box2>.inner>h1{padding: 120px 0; color: #233a1d; font-size: 50px}
+.card{width: 30%; height: 400px; float: left; border-radius: 30px; box-shadow: 5px 5px #e8eaed}
+.card:nth-child(1){background-color: #56684e; margin-right: 5%}
+.card:nth-child(2){background-color: #98af8e; margin-right: 5%}
+.card:nth-child(3){background-color: #e9fbe1}
+.card>div{width: 130px; margin: 30px auto}
+.card:nth-child(1)>div:nth-child(1){padding-top: 30px; height: 100px}
+.card:nth-child(2)>div:nth-child(1){padding-top: 50px; height: 80px}
+.card:nth-child(3)>div:nth-child(1){padding-top: 20px; height: 110px}
+/*초기화*/
+.box2>.inner>div:after{display: block; content: ""; clear: both}
+
+.card>h4{font-size: 20px; color: #233a1d; padding-bottom: 30px}
+.card:nth-child(1)>h4{color: #fff}
+.card>p{font-size: 12px; padding-bottom: 30px; color: #233a1d}
+.card:nth-child(1)>p{color: #fff}
+.card>h5{font-size: 15px; color: #233a1d; font-weight: normal}
+.card:nth-child(1)>h5{color: #fff}
+
+/*박스3*/
+.box3{width: 100%; height: 600px; position: relative; padding-top: 170px}
+.box3_bg{width: 80%; height: 486px; background-image: url(../img/contents03_bg.jpg); background-repeat: no-repeat; background-size: cover; position: absolute; right: 0; top: 170px}
+.box3>.inner{width: 1020px; height: 489px ; text-align: right; position: relative; z-index: 1}
+.box3>.inner>h1{font-size: 50px; color: #fff; padding-top: 20px}
+.box3>.inner>p{font-size: 20px; color: #fff; padding-top: 20px}
+.table{position: absolute; bottom: 0; right: -100px}
+
+/* 푸터 */
+#footer{width: 100%; height: 300px; background-color: #233a1d; margin-top: 59px}
+#footer>.inner{padding-top: 60px}
+/*초기화*/
+#footer>.inner:after{display: block; content: ""; clear: both}
+
+.footer_logo{width: 30%; float: left; padding-top: 50px}
+.footer_text{width: 70%; float: right; color: #fff; font-size: 15px; padding-top: 20px}
+.footer_text>ul>li{float: left}
+.footer_text>ul{width: 100%; height: 15px; padding-bottom: 20px}
+.footer_text>ul>li:before{display: inline-block; content: "|"; padding: 0 30px}
+.footer_text>ul>li:nth-child(1):before{content: ""; padding: 0}
+.footer_text>h4{padding-bottom: 20px}
+/*초기화*/
+.footer_text>ul:after{display: block; content: ""; clear: both}
+
